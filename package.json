@@ -1,0 +1,30 @@
+{
+  "name": "javascript-api-automation",
+  "version": "1.0.0",
+  "description": "mocha chai petstore example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisnagilang/javascript-api-automation.git"
+  },
+  "author": "krisna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisnagilang/javascript-api-automation/issues"
+  },
+  "homepage": "https://github.com/krisnagilang/javascript-api-automation#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1"
+  }
+}
